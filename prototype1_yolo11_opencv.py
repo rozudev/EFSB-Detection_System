@@ -1,3 +1,10 @@
+#============================================================================================================
+# PROJECT: EFSB Detection Research Prototype
+# DEVELOPED BY: Fatima Rose P. Torres
+# DESCRIPTION:
+# This system utilizes a custom-trained YOLO11 Nano model to detect Fruit and Shoot Borer in eggplant farms.
+#============================================================================================================
+
 import cv2 as cv
 from ultralytics import YOLO
 
