@@ -8,5 +8,5 @@ This project that I made is still a functional software prototype, I trained on 
 
 For the final product, I will be using Raspberry Pi 5, Raspberry Pi camera module 3 and design systems. I will aim for 1,000+ pictures to train for more efficient and accurate detection of the EFSB symptoms.
 
-Date: 24/04/2026
+Date: 12/04/2026
 ============================================================================================================================================
