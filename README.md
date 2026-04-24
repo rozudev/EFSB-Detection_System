@@ -1,5 +1,5 @@
 # EFSB-Detection_System
-This is my fist big project for AI in Agrculture, a eggplant and shoot borer (EFSB) symptoms Real time Detection System for eggplant farms. 
+This is my fist big project for AI in Agrculture using computer vision system, a eggplant and shoot borer (EFSB) symptoms Real time Detection System for eggplant farms. 
 In this research project I combined openCV and YOLO, I used two models of YOLO (yolo11 and yolo26) for experimenting, testing and comparison of overall accuracy. The Eggplant Fruit and Shoot Borer (EFSB) Leucinodes orbonalis is the most destructive pest of eggplants in South and Southeast Asia causing 70-80% yield loss.
 
 The goal of this project is to help and support eggplant farmers on dealing with destructive pest and creat a good impact in the agricultural sector. This project contributes to sustainable farming by enabling early detection of EFSB infestation which can help reduce unnecesssary pescticide usage.
