@@ -5,6 +5,15 @@
 
 import cv2 as cv
 from ultralytics import YOLO
+import pyfirmata2
+
+comport = 'COM3'
+board = pyfirmata2.Arduino(comport)
+
+green_led = board.get_pin('d:6:o') #healthy eggplant
+red_led = board.get_pin('d:5:o') #efsb infected eggplant
+buzzer = board.get_pin('d:7:o') #warning alarm
+
 
 model = YOLO('best.pt')
 
@@ -33,8 +42,18 @@ while True:
         cls = int(box.cls[0])
         class_name = model.names[cls]
 
+        # Infected eggplant warning
         if class_name == 'EFSB Infected eggplant':
             count += 1
+            red_led.write(1)
+            green_led.write(0)
+            buzzer.write(1)
+
+        # Good condition
+        else:
+            red_led.write(0)
+            green_led.write(1)
+            buzzer.write(0)
 
     frame_resized = rescaleFrame(annotated_frame, scale=0.6)
 
