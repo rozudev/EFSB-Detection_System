@@ -29,3 +29,7 @@ Here is the systems and designs that I draw for the Project:
 Here is also the link of my video on my YT channel where I explain about the project and the systems that I created.
 https://www.youtube.com/watch?v=GRup5Qj9Rrk&t=3s
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+I added a Warning System using Arduino UNO and components (LED and Buzzer.)
+
