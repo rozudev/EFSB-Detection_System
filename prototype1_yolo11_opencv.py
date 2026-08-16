@@ -15,7 +15,7 @@ red_led = board.get_pin('d:5:o') #efsb infected eggplant
 buzzer = board.get_pin('d:7:o') #warning alarm
 
 
-model = YOLO('best.pt')
+model = YOLO('best1.pt')
 
 model.export(format="onnx", opset=12, simplify=True)
 
@@ -34,7 +34,7 @@ while True:
     if not isTrue:
         break
 
-    results = model(frame, conf=0.25)
+    results = model(frame, conf=0.15)
     annotated_frame = results[0].plot()
 
     count = 0
