@@ -5,21 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0748b0e-1625-40aa-97ad-10d9e40c17f2" name="Changes" comment="updates on the working prototype">
-      <change afterPath="$PROJECT_DIR$/best1.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/best2.1.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/best2.2.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eggplant farm video/lv_0_20260719145232.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eggplant farm video/lv_0_20260719150104.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eggplant farm video/lv_0_20260721183122.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype2.1_yolo11_opencv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raspberry Pi-System Programming/final_prototype-RPi-yolo11_opencv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/important metrics and results/BoxF1_curve 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/important metrics and results/BoxF1_curve-2.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/important metrics and results/BoxF1_curve-2.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/important metrics and results/BoxPR_curve 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/important metrics and results/BoxPR_curve-2.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/important metrics and results/BoxPR_curve-2.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/important metrics and results/confusion_matrix 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/important metrics and results/confusion_matrix-proto2.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/important metrics and results/confusion_matrix-proto2.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/important metrics and results/results 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/important metrics and results/results_proto2.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/important metrics and results/results_proto2.2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/best2.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype1.2_yolo26_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/prototype2.2_yolo11_opencv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype1_yolo11_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/prototype1_yolo11_opencv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_prototype1.2_yolo11_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_prototype2_yolo11_opencv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_prototype1_yolo11_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_prototype1_yolo11_opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/export_onnx.py" beforeDir="false" afterPath="$PROJECT_DIR$/export_onnx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype1_yolo11_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/prototype1_yolo11n_opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype2.1_yolo11_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/prototype2.1_yolo11s_opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype2.2_yolo11_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/prototype2.2_yolo11n_opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo26n.pt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +66,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.export_onnx.executor&quot;: &quot;Run&quot;,
     &quot;Python.onnx_convertion.executor&quot;: &quot;Run&quot;,
     &quot;Python.prototype1_yolo11_opencv.executor&quot;: &quot;Run&quot;,
     &quot;Python.prototype2.1_yolo11_opencv (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.prototype2.1_yolo11_opencv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prototype2.1_yolo11s_opencv.executor&quot;: &quot;Run&quot;,
     &quot;Python.prototype2.2_yolo11_opencv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prototype2.2_yolo11n_opencv (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.prototype2.2_yolo11n_opencv.executor&quot;: &quot;Run&quot;,
     &quot;Python.prototype2_yolo26_opencv.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_prototype1.2_yolo11_opencv.executor&quot;: &quot;Run&quot;,
@@ -84,14 +92,15 @@
       <recent name="C:\Users\Admin\Eggplant EFSB Research" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Eggplant EFSB Research\important metrics and results" />
       <recent name="C:\Users\Admin\Eggplant EFSB Research" />
       <recent name="C:\Users\Admin\Eggplant EFSB Research\eggplant farm video" />
       <recent name="C:\Users\Admin\Eggplant EFSB Research\eggplant pictures test" />
       <recent name="C:\Users\Admin\Eggplant EFSB Research\eggplant_pictures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prototype2.1_yolo11_opencv">
-    <configuration name="prototype2.1_yolo11_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_prototype2_yolo11_opencv">
+    <configuration name="prototype1_yolo11n_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EggplantPest EFSB ResearchProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,7 +113,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prototype2.1_yolo11_opencv.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Admin\Eggplant EFSB Research\prototype1_yolo11n_opencv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prototype2.2_yolo11_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="prototype2.1_yolo11s_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EggplantPest EFSB ResearchProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prototype2.2_yolo11_opencv.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Admin\Eggplant EFSB Research\prototype2.1_yolo11s_opencv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +166,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="prototype2.2_yolo11n_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EggplantPest EFSB ResearchProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Admin\Eggplant EFSB Research\prototype2.2_yolo11n_opencv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_prototype2_yolo11_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EggplantPest EFSB ResearchProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_prototype2_yolo11_opencv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.prototype2.1_yolo11_opencv" />
-        <item itemvalue="Python.prototype2.2_yolo11_opencv" />
-        <item itemvalue="Python.prototype2.2_yolo11_opencv" />
+        <item itemvalue="Python.test_prototype2_yolo11_opencv" />
+        <item itemvalue="Python.prototype2.1_yolo11s_opencv" />
+        <item itemvalue="Python.prototype2.2_yolo11n_opencv" />
+        <item itemvalue="Python.prototype1_yolo11n_opencv" />
+        <item itemvalue="Python.prototype2.2_yolo11n_opencv" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783613017187</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updates on the working prototype">
+      <option name="closed" value="true" />
+      <created>1786892530326</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1786892530326</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

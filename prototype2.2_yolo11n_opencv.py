@@ -1,7 +1,7 @@
-# PROJECT: EFSB Detection Research Prototype
+# PROJECT: EFSB Detection Research Prototype (2nd version)
 # DEVELOPED BY: Fatima Rose P. Torres
 # DESCRIPTION:
-# This system utilizes a custom-trained YOLO11s (Small) model to detect Fruit and Shoot Borer infestation in eggplant farms.
+# This system utilizes a custom-trained YOLO11n (Nano) model to detect Fruit and Shoot Borer infestation in eggplant farms.
 
 import cv2 as cv
 from ultralytics import YOLO
@@ -9,11 +9,10 @@ import pyfirmata2
 
 comport = 'COM3'
 board = pyfirmata2.Arduino(comport)
-
 green_led = board.get_pin('d:6:o')
 red_led = board.get_pin('d:5:o')
 
-model = YOLO('best2.1.pt')
+model = YOLO('best2.2.pt')
 
 model.export(format="onnx", opset=12, simplify=True)
 
@@ -31,7 +30,7 @@ while True:
 
     if not isTrue:
         break
-
+ 
     results = model(frame, conf=0.20)
     annotated_frame = results[0].plot()
 
@@ -58,7 +57,7 @@ while True:
         cv.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3
     )
 
-    cv.imshow('Research Prototype 2.1 (yolo11s)', frame_resized)
+    cv.imshow('Research Prototype 2.2 (yolo11n)', frame_resized)
 
     if  cv.waitKey(20) & 0xFF == ord('d'):
         break
